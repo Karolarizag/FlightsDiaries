@@ -1,0 +1,60 @@
+{
+  "get": {
+    "http://localhost:3000/api/diaries": [
+      {
+        "id": 1,
+        "date": "2017-01-01",
+        "weather": "rainy",
+        "visibility": "poor"
+      },
+      {
+        "id": 2,
+        "date": "2017-04-01",
+        "weather": "sunny",
+        "visibility": "good"
+      },
+      {
+        "id": 3,
+        "date": "2017-04-15",
+        "weather": "windy",
+        "visibility": "good"
+      },
+      {
+        "id": 4,
+        "date": "2017-05-11",
+        "weather": "cloudy",
+        "visibility": "good"
+      }
+    ],
+    "http://localhost:3000/api/diaries/1": {
+      "id": 1,
+      "date": "2017-01-01",
+      "weather": "rainy",
+      "visibility": "poor",
+      "comment": "Pretty scary flight, I'm glad I'm alive"
+    },
+    "http://localhost:3000/api/diaries/1/nonsensitive": {
+      "id": 1,
+      "date": "2017-01-01",
+      "weather": "rainy",
+      "visibility": "poor"
+    }
+  },
+  "post": {
+    "http://localhost:3000/api/diaries/": {
+      "body": {
+        "date": "2022-08-05",
+        "weather": "sunny",
+        "visibility": "good",
+        "comment": "I'm enjoying the views!"
+      },
+      "output": {
+        "id": 5,
+        "comment": "I'm enjoying the views!",
+        "date": "2022-08-05",
+        "weather": "sunny",
+        "visibility": "good"
+      }
+    }
+  } 
+}

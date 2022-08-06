@@ -26,5 +26,12 @@
     "weather": "cloudy",
     "visibility": "good",
     "comment": "I almost failed the landing but I survived"
+  },
+  {
+    "id": 5,
+    "date": "2022-08-06",
+    "weather": "cloudy",
+    "visibility": "poor",
+    "comment": "I'm getting nervouss! "
   }
 ]
